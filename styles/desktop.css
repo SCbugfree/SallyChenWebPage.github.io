@@ -17,6 +17,20 @@ body{
     color: white;
 }
 
+.navbar{
+    text-align: left;
+}
+
+.navbar a{
+    font-size: 1rem;
+    color: white;
+}
+
+.navbar ul{
+    display: table;
+    margin: 0;
+}
+
 .avatar{
     width: 10rem;
     height: 10rem;
@@ -31,6 +45,12 @@ body{
 
 .quote{
     float: right;
+}
+
+.boldSpecial{
+    font-family: "DM Serif Display", serif;
+    font-weight:bold;
+    color: #eb7e5c;
 }
 
 section{
@@ -54,7 +74,7 @@ a {
 
 img {
     object-fit: cover;
-    max-height:80rem;
+    max-height: 40rem;
     width: auto;
 }
 
@@ -92,14 +112,6 @@ video{
     margin-right: auto;
 }
 
-.navbar{
-    text-align: center;
-}
-
-.navbar a{
-    color: white;
-    margin-left: 0;
-}
 
 
 
